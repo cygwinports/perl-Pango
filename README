@@ -1,0 +1,182 @@
+perl-Pango
+-------------------------------------------
+Pango is a library for laying out and rendering text, with an emphasis 
+on internationalization. Pango can be used anywhere that text layout is 
+needed, but using Pango in conjunction with Cairo and/or Gtk2 provides a 
+complete solution with high quality text handling and graphics 
+rendering.
+
+Runtime requirements:
+  cygwin-1.7.0-43
+  libcairo2-1.8.6-10
+  libgcc1-4.3.2-2
+  libglib2.0_0-2.20.0-1
+  libpango1.0_0-1.24.0-1
+  perl-5.10.0-5
+  perl-Cairo-1.060-10
+  perl-Glib-1.220-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080624-2
+  cygport-0.9.5-1
+  gcc4-core-4.3.2-2
+  make-3.81-2
+  perl-ExtUtils-Depends-0.301-1
+  perl-ExtUtils-PkgConfig-1.12-1
+
+Canonical homepage:
+  http://gtk2-perl.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/gtk2-perl/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Pango-1.220-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Pango-1.220-X.cygport all
+
+This will create:
+  /usr/src/perl-Pango-1.220-X-src.tar.bz2
+  /usr/src/perl-Pango-1.220-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrBackground.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrColor.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrFallback.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrFamily.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrFontDesc.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrForeground.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrGravity.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrGravityHint.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrInt.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrIterator.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrLanguage.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrLetterSpacing.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrList.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrRise.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrScale.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrShape.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrSize.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrStretch.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrStrikethrough.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrStrikethroughColor.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrString.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrStyle.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrUnderline.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrUnderlineColor.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrVariant.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/AttrWeight.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Attribute.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Cairo.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Cairo/Context.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Cairo/Font.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Cairo/FontMap.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Color.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Context.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Font.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/FontDescription.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/FontFace.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/FontFamily.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/FontMap.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/FontMetrics.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Fontset.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Gravity.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Install/Files.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Install/doctypes
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Install/pango-perl-autogen.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Install/pango-perl-versions.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Install/pango-perl.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Install/pango-perl.typemap
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Install/pango.typemap
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Language.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Layout.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/LayoutIter.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/LayoutLine.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Matrix.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Renderer.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/Script.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/ScriptIter.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/TabArray.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/index.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Pango/version.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Pango/.packlist
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Pango/Pango.dll
+  /usr/share/doc/perl-Pango/AUTHORS
+  /usr/share/doc/perl-Pango/ChangeLog
+  /usr/share/doc/perl-Pango/LICENSE
+  /usr/share/doc/perl-Pango/MAINTAINERS
+  /usr/share/doc/perl-Pango/NEWS
+  /usr/share/doc/perl-Pango/README
+  /usr/share/man/man3/Pango.3pm.gz
+  /usr/share/man/man3/Pango.AttrBackground.3pm.gz
+  /usr/share/man/man3/Pango.AttrColor.3pm.gz
+  /usr/share/man/man3/Pango.AttrFallback.3pm.gz
+  /usr/share/man/man3/Pango.AttrFamily.3pm.gz
+  /usr/share/man/man3/Pango.AttrFontDesc.3pm.gz
+  /usr/share/man/man3/Pango.AttrForeground.3pm.gz
+  /usr/share/man/man3/Pango.AttrGravity.3pm.gz
+  /usr/share/man/man3/Pango.AttrGravityHint.3pm.gz
+  /usr/share/man/man3/Pango.AttrInt.3pm.gz
+  /usr/share/man/man3/Pango.AttrIterator.3pm.gz
+  /usr/share/man/man3/Pango.AttrLanguage.3pm.gz
+  /usr/share/man/man3/Pango.AttrLetterSpacing.3pm.gz
+  /usr/share/man/man3/Pango.AttrList.3pm.gz
+  /usr/share/man/man3/Pango.AttrRise.3pm.gz
+  /usr/share/man/man3/Pango.AttrScale.3pm.gz
+  /usr/share/man/man3/Pango.AttrShape.3pm.gz
+  /usr/share/man/man3/Pango.AttrSize.3pm.gz
+  /usr/share/man/man3/Pango.AttrStretch.3pm.gz
+  /usr/share/man/man3/Pango.AttrStrikethrough.3pm.gz
+  /usr/share/man/man3/Pango.AttrStrikethroughColor.3pm.gz
+  /usr/share/man/man3/Pango.AttrString.3pm.gz
+  /usr/share/man/man3/Pango.AttrStyle.3pm.gz
+  /usr/share/man/man3/Pango.AttrUnderline.3pm.gz
+  /usr/share/man/man3/Pango.AttrUnderlineColor.3pm.gz
+  /usr/share/man/man3/Pango.AttrVariant.3pm.gz
+  /usr/share/man/man3/Pango.AttrWeight.3pm.gz
+  /usr/share/man/man3/Pango.Attribute.3pm.gz
+  /usr/share/man/man3/Pango.Cairo.3pm.gz
+  /usr/share/man/man3/Pango.Cairo.Context.3pm.gz
+  /usr/share/man/man3/Pango.Cairo.Font.3pm.gz
+  /usr/share/man/man3/Pango.Cairo.FontMap.3pm.gz
+  /usr/share/man/man3/Pango.Color.3pm.gz
+  /usr/share/man/man3/Pango.Context.3pm.gz
+  /usr/share/man/man3/Pango.Font.3pm.gz
+  /usr/share/man/man3/Pango.FontDescription.3pm.gz
+  /usr/share/man/man3/Pango.FontFace.3pm.gz
+  /usr/share/man/man3/Pango.FontFamily.3pm.gz
+  /usr/share/man/man3/Pango.FontMap.3pm.gz
+  /usr/share/man/man3/Pango.FontMetrics.3pm.gz
+  /usr/share/man/man3/Pango.Fontset.3pm.gz
+  /usr/share/man/man3/Pango.Gravity.3pm.gz
+  /usr/share/man/man3/Pango.Language.3pm.gz
+  /usr/share/man/man3/Pango.Layout.3pm.gz
+  /usr/share/man/man3/Pango.LayoutIter.3pm.gz
+  /usr/share/man/man3/Pango.LayoutLine.3pm.gz
+  /usr/share/man/man3/Pango.Matrix.3pm.gz
+  /usr/share/man/man3/Pango.Renderer.3pm.gz
+  /usr/share/man/man3/Pango.Script.3pm.gz
+  /usr/share/man/man3/Pango.ScriptIter.3pm.gz
+  /usr/share/man/man3/Pango.TabArray.3pm.gz
+  /usr/share/man/man3/Pango.index.3pm.gz
+  /usr/share/man/man3/Pango.version.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 1.220-1 -----
+Initial release of GNOME 2.26 for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
