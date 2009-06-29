@@ -1,5 +1,5 @@
 category: Perl Gnome
-requires: cygwin libcairo2 libgcc1 libglib2.0_0 libpango1.0_0 perl perl-Cairo perl-Glib
+requires: libcairo2 libgcc1 libglib2.0_0 libpango1.0_0 perl perl-Cairo perl-Glib
 sdesc: "Perl bindings for Pango"
 ldesc: "Pango is a library for laying out and rendering text, with an 
 emphasis on internationalization. Pango can be used anywhere that text 
