@@ -7,22 +7,22 @@ complete solution with high quality text handling and graphics
 rendering.
 
 Runtime requirements:
-  cygwin-1.7.0-43
-  libcairo2-1.8.6-10
+  cygwin-1.7.0-60
+  libcairo2-1.8.8-1
   libgcc1-4.3.2-2
-  libglib2.0_0-2.20.0-1
-  libpango1.0_0-1.24.0-1
+  libglib2.0_0-2.20.4-1
+  libpango1.0_0-1.24.5-1
   perl-5.10.0-5
-  perl-Cairo-1.060-10
-  perl-Glib-1.220-1
+  perl-Cairo-1.061-1
+  perl-Glib-1.222-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20080624-2
-  cygport-0.9.5-1
+  binutils-2.19.51-1
+  cygport-0.9.9-1
   gcc4-core-4.3.2-2
   make-3.81-2
-  perl-ExtUtils-Depends-0.301-1
+  perl-ExtUtils-Depends-0.302-1
   perl-ExtUtils-PkgConfig-1.12-1
 
 Canonical homepage:
@@ -34,15 +34,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Pango-1.220-X-src.tar.bz2
+  unpack perl-Pango-1.221-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Pango-1.220-X.cygport all
+  cygport ./perl-Pango-1.221-X.cygport all
 
 This will create:
-  /usr/src/perl-Pango-1.220-X-src.tar.bz2
-  /usr/src/perl-Pango-1.220-X.tar.bz2
+  /usr/src/perl-Pango-1.221-X-src.tar.bz2
+  /usr/src/perl-Pango-1.221-X.tar.bz2
 
 -------------------------------------------
 
@@ -173,6 +173,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.221-1 -----
+Version bump.
 
 ----- version 1.220-1 -----
 Initial release of GNOME 2.26 for Cygwin 1.7.
