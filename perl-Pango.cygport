@@ -1,7 +1,7 @@
 inherit gtk2-perl
 
 NAME="perl-Pango"
-VERSION=1.224
+VERSION=1.226
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl bindings for Pango"
