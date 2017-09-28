@@ -2,7 +2,7 @@ inherit gtk2-perl
 
 NAME="perl-Pango"
 VERSION=1.227
-RELEASE=1
+RELEASE=2
 CATEGORY="Perl"
 SUMMARY="Perl bindings for Pango"
 DESCRIPTION="Pango is a library for laying out and rendering text, with an
